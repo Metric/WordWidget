@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <ListView
+        android:id="@+id/textlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="0px"
+        android:showDividers="none" />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/refresh"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_refresh"
+            android:alpha="0.75"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignTop="@+id/config"
+            android:layout_toLeftOf="@id/config" />
+
+        <ImageButton
+            android:id="@+id/config"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_menu"
+            android:alpha="0.75"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

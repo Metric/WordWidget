@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Word Widget</string>
+
+    <!-- activity titles -->
+    <string name="color_select">Color Select</string>
+    <string name="font_size">Font Size</string>
+    <string name="file_select">File Select</string>
+    <string name="refresh_select">Refresh Interval</string>
+    <string name="tail_select">Tail Size</string>
+
+    <!-- config labels -->
+    <string name="file_name">File: %1$s</string>
+    <string name="font_size_select">Font Size: %1$d</string>
+    <string name="text_alignment_select">Text Alignment: %1$s</string>
+    <string name="tail_size_select">Tailing: %1$d lines</string>
+    <string name="text_color_select">Text Color</string>
+    <string name="background_color_select">Background Color</string>
+    <string name="refresh_minutes">Refresh: %1$d minutes</string>
+
+    <!-- list labels -->
+    <string name="tail_lines_count">%1$d lines</string>
+    <string name="time_minutes">%1$d minutes</string>
+
+    <!-- button labels -->
+    <string name="select_button">Select</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="switch_button">Switch</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="local">Device</string>
+    <string name="save_button">Save</string>
+
+    <!-- dropbox api access -->
+    <string name="app_key"></string>
+</resources>
